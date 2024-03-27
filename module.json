@@ -1,0 +1,36 @@
+{
+ "id":"mmv4",
+ "title": "Monday Monsters Vol. 4: Wyrms and Wondrous Works ",
+ "description": "Dive into Monday Monsters Vol. 4: Wyrms and Wondrous Works, where you will find 10 new monsters for your PF2e games, themed around dragons and constructs.",
+ "version":"1.0.0",
+ "authors":[
+	{
+	"name": "Eldritch Osiris Games"
+	}
+],
+"packs":[
+	{
+	 "label":"Monday Monsters Vol. 4",
+	 "name":"Monday Monsters Vol 4",
+	 "path":"packs/monday-monsters-vol-4",
+	 "system": "pf2e",
+	 "type": "Actor"
+	}
+],
+"compatibility":{
+	"minimum":"11",
+	"verified":"11"
+},
+"relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.13.0"
+        }
+      }
+    ]
+  }
+}
